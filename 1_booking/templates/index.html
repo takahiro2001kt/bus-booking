@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>予約フォーム</title>
+</head>
+<body>
+    <div class="fll_back" style="text-align: center;">
+        <h1>高速バス予約フォーム</h1>
+        <form method="GET" action="/complete" autocomplete="off">
+            　　　名前（姓）：<input name="name_L"><br>
+            　　　名前（名）：<input name="name_F"><br>
+            　　　性別：<select name="gender">
+                <option value="男">男</option>
+                <option value="女">女</option>
+                <option value="その他">その他</option>
+                </select><br>
+            　　　住所：<input name="address"><br>
+            　　　電話番号：<input name="tel"><br>
+            　　　メールアドレス：<input name="mail"><br>
+                 <input type="submit" value="送信">
+            　　　<input type="reset" value="リセット">
+        </form>
+        送信ボタンを複数回押さないでください。<br>送信が完了すると画面が自動で切り替わります。
+    </div>
+</body>
+</html>
