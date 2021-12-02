@@ -31,14 +31,6 @@ def complete():
 bace_seat = ["A1","A2","A3","A4","A5","A6","A7","A8","B1","B2","B3","B4","B5","B6","B7","B8","C1","C2","C3","C4","C5","C6","C7","C8"] #全座席情報
 get_seat = [] # 現在埋まっているシート
 
-# HTML & 座席入力サンプル
-# # データの取得をhtmlからに最終的に変更しなくてはいけない
-# name_L = "和仁"
-# name_F = "隆宏"
-# gender = "男"
-# address = "東京都"
-# tel = "0312345678"
-# mail = "takahiro2001kt@gmail.com"
     # ドキュメントの要素数をカウントするコード
 doc_ref = db.collection(u"tokyo-osaka")
 user_info = doc_ref.get()
